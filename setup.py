@@ -55,6 +55,7 @@ setup(
     entry_points=dict(
         console_scripts=[
             'gatt-client = bluetooth_mesh.cli.gatt_client:main',
+            'meshd-client = bluetooth_mesh.cli.meshd_client:main',
         ]
     ),
     classifiers=[
